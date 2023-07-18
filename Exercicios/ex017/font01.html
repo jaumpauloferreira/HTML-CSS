@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas
+            cm, mm, in, px, pt, pc   ----- px ------
+
+            Medidas Relativas
+            em, ex, rem, vw, vn, %  ----- em -----
+            16px geralmente = 1em   */
+
+            font-size: 1em;
+
+        }
+
+        h1 {
+            /* shorthand font
+            -font-style -> font weight -> font-size -> font-family
+
+            font-family: 'work sans', sans-serif
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bold 3em 'work sans', sans-serif
+            }
+            h2 {
+                font: bold 2em 'work sans', sans-serif
+                        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ea nulla! Saepe qui voluptatibus eos voluptatum iste quisquam recusandae corporis consequatur velit! Sunt, quae perspiciatis suscipit officia quod at earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vitae, voluptatum delectus voluptas maxime non aliquid quod excepturi soluta voluptatem, illo architecto, consectetur modi iure corrupti quas earum accusantium. Perspiciatis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dolore beatae quia reprehenderit quam. Culpa, tempore maiores similique recusandae nostrum rerum, natus, ex reprehenderit labore error veniam! Laboriosam, sint voluptas.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis fuga placeat mollitia sequi a hic tempore, debitis ut distinctio sed quod recusandae voluptate laboriosam? Temporibus ipsam fuga aperiam tempora illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi quibusdam quam quod. Dolore ullam tempora ad fuga suscipit aperiam molestiae? Consectetur dolore accusamus obcaecati doloremque dolores sit, laboriosam necessitatibus!</p>
+</body>
+</html>
